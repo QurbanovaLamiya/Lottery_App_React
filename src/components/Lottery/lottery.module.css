@@ -1,0 +1,31 @@
+.lottery {
+  width: 60%;
+  margin: 10px auto;
+  border: 3px solid #2a84a8;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lottoBall {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.title {
+  text-align: center;
+  color: #2a84a8;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: #2a84a8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.button:hover {
+  cursor: pointer;
+}
